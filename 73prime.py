@@ -1,3 +1,4 @@
+#Ejercicio 7 del modulo 1
 def is_prime (y): #esta función identifica si un numero es primo
   for x in range (2, y):
     if y%x == 0:
