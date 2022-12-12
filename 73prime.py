@@ -1,4 +1,4 @@
-def is_prime (y):
+def is_prime (y): #esta función identifica si un numero es primo
   for x in range (2, y):
     if y%x == 0:
         result = False
@@ -12,7 +12,7 @@ last_prime = 1
 next_number = 2
 print(next_number)
 
-while contador<72:
+while contador<72:# con este loop se identifican los 73° numeros primos
     next_number = next_number + 1
     if is_prime (next_number):
         contador = contador + 1
